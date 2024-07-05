@@ -80,10 +80,11 @@ DATABASES = {
         'NAME': 'parcing',
         'USER': 'fanaenic',
         'PASSWORD': '1254388047',
-        'HOST': 'localhost',  # Имя сервиса базы данных из docker-compose.yml
+        'HOST': 'db',
         'PORT': '5432',
     }
 }
+
 
 
 # Password validation
